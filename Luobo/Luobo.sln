@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luobo.Plugins", "Luobo.Plugins.csproj", "{DE9BB4E1-A097-054E-65C4-F47D077D9F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luobo", "Luobo.csproj", "{143E059A-25F8-8A2B-16F9-D9EC296DDED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE9BB4E1-A097-054E-65C4-F47D077D9F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9BB4E1-A097-054E-65C4-F47D077D9F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9BB4E1-A097-054E-65C4-F47D077D9F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9BB4E1-A097-054E-65C4-F47D077D9F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143E059A-25F8-8A2B-16F9-D9EC296DDED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143E059A-25F8-8A2B-16F9-D9EC296DDED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143E059A-25F8-8A2B-16F9-D9EC296DDED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143E059A-25F8-8A2B-16F9-D9EC296DDED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

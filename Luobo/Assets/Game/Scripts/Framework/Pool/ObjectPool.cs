@@ -9,7 +9,6 @@ public class ObjectPool : Singleton<ObjectPool>
 
     Dictionary<string, SubPool> m_pools = new Dictionary<string, SubPool>();
 
-
     //取对象
     public GameObject Spawn(string name)
     {
@@ -57,7 +56,7 @@ public class ObjectPool : Singleton<ObjectPool>
         GameObject prefab = Resources.Load<GameObject>(path);
 
         //创建子对象池
-        SubPool pool = new SubPool(prefab);
+        SubPool pool = new SubPool(transform, prefab);
         m_pools.Add(pool.Name, pool);
     }
 }

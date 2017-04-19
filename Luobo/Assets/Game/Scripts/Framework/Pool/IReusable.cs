@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public interface IReusable  
+public interface IReusable
 {
     //当取出时调用
     void OnSpawn();

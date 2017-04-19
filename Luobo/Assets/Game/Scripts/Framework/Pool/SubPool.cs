@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class SubPool
 {
+    Transform m_parent;
+
     //预设
     GameObject m_prefab;
     
     //集合
     List<GameObject> m_objects = new List<GameObject>();
-
 
     //名字标识
     public string Name
@@ -19,8 +20,9 @@ public class SubPool
     }
 
     //构造
-    public SubPool(GameObject prefab)
+    public SubPool(Transform parent, GameObject prefab)
     {
+        this.m_parent = parent;
         this.m_prefab = prefab;
     }
 
@@ -41,6 +43,7 @@ public class SubPool
         if (go == null)
         {
             go = GameObject.Instantiate<GameObject>(m_prefab);
+            go.transform.parent = m_parent;
             m_objects.Add(go);
         }
 
